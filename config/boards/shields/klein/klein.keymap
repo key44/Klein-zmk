@@ -59,10 +59,10 @@
         num_layer {
             
             bindings = <
-&kp LBKT       &kp N7         &kp N8         &kp N9         &kp PLUS            &trans         &trans         &trans         &trans         &trans
-&kp SEMI       &kp N4         &kp N5         &kp N6         &kp MINUS           &trans         &kp LSHFT      &kp LCTRL      &kp LALT       &kp LGUI
+&kp BSPC       &kp N7         &kp N8         &kp N9         &kp PLUS            &trans         &trans         &trans         &trans         &trans
+&kp FSLH       &kp N4         &kp N5         &kp N6         &kp MINUS           &trans         &kp LSHFT      &kp LCTRL      &kp LALT       &kp LGUI
 &kp N0         &kp N1         &kp N2         &kp N3         &kp DOT             &trans         &trans         &trans         &trans         &trans
-&kp PERIOD     &kp N0         &kp MINUS      &bootloader                                       &bootloader    &trans         &trans         &trans
+&trans         &trans         &trans         &bootloader                                       &bootloader    &trans         &trans         &trans
             >;
         sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
