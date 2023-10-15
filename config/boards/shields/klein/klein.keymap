@@ -41,7 +41,7 @@
 &kp Q          &kp W          &kp E          &kp R          &kp T               &kp Y          &kp U          &kp I          &kp O          &kp P
 &kp A          &kp S          &kp D          &kp F          &kp G               &kp H          &kp J          &kp K          &kp L          &kp SQT
 &kp Z          &kp X          &kp C          &kp V          &kp B               &kp N          &kp M          &kp COMMA      &kp DOT        &kp FSLH
-&lt MEDIA ESC  &lt NAV SPACE  &lt NUM ENTER  &bootloader                                       &kp K_MUTE     &lt SYM RET    &lt NUM BKSP   &lt FUN DEL
+&mt LALT ESC   &mt LCTRL SPACE  &lt NUM ENTER  &bootloader                                     &kp K_MUTE     &mt LSHFT ESC  &lt NUM BKSP   &lt FUN DEL
             >;
         sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
@@ -61,8 +61,8 @@
             
             bindings = <
 &kp BSPC       &kp N7         &kp N8         &kp N9         &kp PLUS            &kp LPAR       &kp RPAR       &trans         &trans         &trans
-&kp FSLH       &kp N4         &kp N5         &kp N6         &kp MINUS           &kp LBKT       &kp RBKT       &kp LCTRL      &kp LALT       &kp LGUI
-&kp N0         &kp N1         &kp N2         &kp N3         &kp DOT             &trans         &trans         &trans         &trans         &trans
+&kp FSLH       &kp N4         &kp N5         &kp N6         &kp MINUS           &kp LBKT       &kp RBKT       &kp UP         &kp LALT       &kp SEMI
+&kp N0         &kp N1         &kp N2         &kp N3         &kp DOT             &trans         &kp LEFT       &kp DOWN       &kp RIGHT      &kp BSLH
 &kp EQUAL      &kp DEL        &trans         &bootloader                                       &bootloader    &kp LSHFT      &trans         &trans
             >;
         sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
