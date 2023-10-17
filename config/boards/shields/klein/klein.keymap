@@ -60,7 +60,7 @@
 &kp BSPC       &kp N7         &kp N8         &kp N9         &kp PLUS            &kp LPAR       &kp RPAR       &trans         &trans         &trans
 &kp FSLH       &kp N4         &kp N5         &kp N6         &kp MINUS           &kp LBKT       &kp RBKT       &kp UP         &kp LALT       &kp SEMI
 &kp N0         &kp N1         &kp N2         &kp N3         &kp DOT             &trans         &kp LEFT       &kp DOWN       &kp RIGHT      &kp BSLH
-&kp EQUAL      &kp DEL        &trans         &bootloader                                       &bootloader    &kp LSHFT      &trans         &trans
+&kp EQUAL      &kp DEL        &trans         &bootloader                                       &bootloader    &kp LSHFT      &kp LC(SPACE)         &trans
             >;
         sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         };
