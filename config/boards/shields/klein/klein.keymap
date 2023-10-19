@@ -57,7 +57,7 @@
         num_layer {
             
             bindings = <
-&kp BSPC       &kp N7         &kp N8         &kp N9         &kp PLUS            &kp LPAR       &kp RPAR       &trans         &trans         &trans
+&kp BSPC       &kp N7         &kp N8         &kp N9         &kp PLUS            &kp LPAR       &kp RPAR       &trans         &trans         &kp BSPC
 &kp FSLH       &kp N4         &kp N5         &kp N6         &kp MINUS           &kp LBKT       &kp RBKT       &kp UP         &kp LALT       &kp SEMI
 &kp N0         &kp N1         &kp N2         &kp N3         &kp DOT             &trans         &kp LEFT       &kp DOWN       &kp RIGHT      &kp BSLH
 &kp EQUAL      &kp DEL        &trans         &bootloader                                       &bootloader    &kp LSHFT      &kp LC(SPACE)         &trans
@@ -68,7 +68,7 @@
         fun_layer {
             
             bindings = <
-&kp F1        &kp F7         &kp F8         &kp F9         &kp PSCRN           &trans         &trans         &trans         &trans         &trans
+&kp F12        &kp F7         &kp F8         &kp F9         &kp PSCRN           &trans         &trans         &trans         &trans         &trans
 &kp F11        &kp F4         &kp F5         &kp F6         &kp SYSREQ          &trans         &kp LSHFT      &kp LCTRL      &kp LALT       &kp LGUI
 &kp F10        &kp F1         &kp F2         &kp F3         &kp PAUSE_BREAK     &trans         &trans         &trans         &trans         &trans
 &kp ESC        &kp SPACE      &kp TAB        &bootloader                                       &bootloader    &trans         &trans         &trans
